@@ -53,3 +53,10 @@ graph TD
     B -->|mantid-developer.yaml| D[Conda environment] 
   
 ```
+
+
+# Windows debug build?
+Apache arrow said something about this.
+Its more than likely using vcpkg, we'd just need to direct CMAKE to the vcpkg directory.
+There's also conan?
+

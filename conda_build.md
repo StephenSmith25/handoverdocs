@@ -1,4 +1,6 @@
-  # Conda build (nightly and release)
+# Conda build (nightly and release)
+==========================================
+
 ```mermaid
 graph TD
     A[Mantid dependencies] -->|Parse requirements| B(Conda recipes)   

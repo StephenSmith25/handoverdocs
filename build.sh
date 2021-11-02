@@ -11,3 +11,5 @@ pandoc  -F mermaid-filter windows_debug.md -o windows_debug.pdf -V papersize:a4 
 pandoc  -F mermaid-filter packaging.md -o packaging.pdf -V papersize:a4 --highlight-style pygments
 
 pandoc  -F mermaid-filter general_docs.md -o general_docs.pdf -V papersize:a4 --highlight-style pygments
+
+pandoc  -F mermaid-filter fitting.md -o fitting.pdf -V papersize:a4 --highlight-style pygments

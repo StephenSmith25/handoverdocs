@@ -14,7 +14,7 @@ graph TD
     D --> |used by| I[Local build]
     D --> |used by| H[CI build]
     I --> O[Local use]
-    I --> |create installer|P[local install]
+    I --> |install|P[local install]
 
     E --> |creates| G[mantid-framework]
     E --> |creates| J[mantid-qt]
@@ -68,9 +68,4 @@ graph TD
   
 ```
 
-
-# Windows debug build?
-Apache arrow said something about this.
-Its more than likely using vcpkg, we'd just need to direct CMAKE to the vcpkg directory.
-There's also conan?
 
